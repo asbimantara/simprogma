@@ -21,6 +21,37 @@ Aplikasi web untuk mengelola program kerja Ormawa UNISSNU Jepara. Mendukung fitu
 
 ---
 
+## 📸 **Screenshot Aplikasi**
+
+### Halaman Login
+![Login](screenshots/login.png)
+
+### Dashboard User
+![User Dashboard](screenshots/user%20dashboard.png)
+
+### Daftar Program Kerja
+![User Progja](screenshots/user%20progja.png)
+
+### Upload Proposal
+![Upload Proposal](screenshots/user%20upload%20proposal.png)
+
+### Dashboard Admin
+![Admin Dashboard](screenshots/admin%20dashboard.png)
+
+### Admin - Kelola Status Progja
+![Admin Progja](screenshots/admin%20laman%20progja.png)
+
+> 📁 **Screenshot lengkap** tersedia di folder [`screenshots/`](screenshots/) yang mencakup:
+> - Halaman Login & Register
+> - Dashboard User & Admin
+> - CRUD Program Kerja (tambah, edit, hapus, detail)
+> - Upload Proposal & LPJ
+> - Popup status (Draft, Diajukan, Sedang Dikoreksi, Disetujui)
+> - Keterangan Revisi dari Admin
+> - Dan lainnya...
+
+---
+
 ## 🛠️ **Teknologi yang Digunakan**
 - **Laravel 12.x** (PHP 8.2+)
 - **Bootstrap 5** + custom CSS
