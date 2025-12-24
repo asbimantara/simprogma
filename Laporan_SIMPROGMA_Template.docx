@@ -1,0 +1,21 @@
+[Template Word akan berisi struktur berikut:]
+
+Judul Laporan
+Nama Mahasiswa, NIM, Mata Kuliah, Dosen, Tanggal
+
+DAFTAR ISI
+
+1. Pendahuluan
+2. Link Repositori Proyek
+3. Dokumentasi Fitur Aplikasi
+4. Struktur Folder Proyek
+5. Alur Penggunaan Aplikasi
+6. Dokumentasi Uji Jalan
+7. Penutup
+8. Lampiran
+
+[Setiap bagian akan diberi heading dan petunjuk penempatan gambar, misal: [Gambar 1], [Gambar 2], dst.]
+
+[Bagian identitas dan penjelasan akan diberi placeholder agar mudah diisi.]
+
+[Format rapi, siap diisi screenshot dan narasi.] 

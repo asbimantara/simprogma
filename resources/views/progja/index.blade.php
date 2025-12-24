@@ -56,7 +56,7 @@
                 <tbody>
                     @forelse($progjas as $progja)
                     <tr>
-                        <td class="text-center">{{ $loop->iteration }}</td>
+                        <td class="text-center">{{ $progjas->firstItem() + $loop->index }}</td>
                         <td @if($isAdmin) style="width: 150px;" @else style="max-width: 120px; min-width: 80px;" @endif>
                             <a href="{{ route('progja.show', $progja) }}" class="text-primary fw-bold text-decoration-none" style="display: block; width: 100%; @if($isAdmin) white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; @else white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px; @endif">
                                 {{ $progja->nama_progja }}

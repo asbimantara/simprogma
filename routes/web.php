@@ -13,10 +13,11 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    
+    // Profile routes dinonaktifkan karena halaman kosong
+    // Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    // Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    // Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
     // Progja routes
     Route::resource('progja', ProgjaController::class);
     Route::get('/progja/{progja}/upload/proposal', [ProgjaController::class, 'uploadProposal'])->name('progja.upload.proposal');
@@ -34,4 +35,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/ormawa', [App\Http\Controllers\OrmawaController::class, 'index'])->name('ormawa.index');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
