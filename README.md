@@ -3,7 +3,7 @@
 Sistem Informasi Manajemen Program Kerja Ormawa (SIMPROGMA)
 ===========================================================
 
-Aplikasi web untuk mengelola program kerja Ormawa UNISSNU Jepara. Mendukung fitur login/register, manajemen program kerja, upload proposal & LPJ, status verifikasi, dashboard admin & user, dan banyak lagi.
+Aplikasi web untuk mengelola program kerja Ormawa UNISNU Jepara. Mendukung fitur login/register, manajemen program kerja, upload proposal & LPJ, status verifikasi, dashboard admin & user, dan banyak lagi.
 
 ---
 
@@ -176,6 +176,6 @@ Anda juga bisa register user baru melalui halaman register, namun semua user bar
 
 ---
 
-**SIMPROGMA dikembangkan untuk kebutuhan internal Ormawa UNISSNU Jepara.**
+**SIMPROGMA dikembangkan untuk kebutuhan internal Ormawa UNISNU Jepara.**
 
 Jika ada pertanyaan, silakan hubungi developer atau buat issue di GitHub.

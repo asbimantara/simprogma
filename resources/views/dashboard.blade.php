@@ -81,11 +81,11 @@
                 <div class="info-progja">
                     <div class="info-progja-title"><i class="fas fa-info-circle me-1"></i> Perbedaan Progja RAB, Non-RAB, dan Biasa</div>
                     <ul class="info-progja-list ps-3">
-                        <li><b>Progja RAB</b>: Progja yang disusun untuk mendapat dana dari UNISSNU Jepara. Maksimal <b>4 progja</b> per Ormawa yang digunakan untuk mencairkan dana. Wajib upload Proposal dan LPJ.</li>
+                        <li><b>Progja RAB</b>: Progja yang disusun untuk mendapat dana dari UNISNU Jepara. Maksimal <b>4 progja</b> per Ormawa yang digunakan untuk mencairkan dana. Wajib upload Proposal dan LPJ.</li>
                         <li><b>Progja Non-RAB</b>: Kegiatan yang <b>tidak perlu minta anggaran</b> namun wajib dilaporkan dengan LPJ, proposal bisa diganti dengan KAK. Maksimal <b>1 progja</b> Non-RAB per Ormawa.</li>
                         <li><b>Progja Biasa</b>: Sama dengan Non-RAB (tidak minta anggaran), namun <b>tidak perlu Proposal dan LPJ</b>. Cukup diganti dengan <b>KAK (Kerangka Acuan Kegiatan) dan Laporan biasa.</b>.</li>
                     </ul>
-                    <div class="text-muted" style="font-size:0.97em;">Setiap Ormawa sudah mendapat anggaran dari UNISSNU Jepara. Pastikan memilih jenis progja sesuai kebutuhan dan aturan di atas.</div>
+                    <div class="text-muted" style="font-size:0.97em;">Setiap Ormawa sudah mendapat anggaran dari UNISNU Jepara. Pastikan memilih jenis progja sesuai kebutuhan dan aturan di atas.</div>
                 </div>
             @endif
         </div>
